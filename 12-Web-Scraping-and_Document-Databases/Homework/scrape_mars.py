@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 import pandas as pd
 import requests
 from splinter import Browser
-import lxml.html as lh
+
 
 def init_browser():
     executable_path={'executable_path':'./chromedriver.exe'}
